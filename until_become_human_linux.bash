@@ -1,11 +1,11 @@
 endarmy() {
-    start=$(date -d '2017-03-13' "+%s")
+    start=$(date -d '2017-02-28' "+%s")
     today=$(date -d 'today' "+%s")
-    end=$(date -d '2020-03-12' "+%s")
+    end=$(date -d '2020-02-27' "+%s")
 
     datediff=$(( ($end - $today)/(86400) ))
-    start=$(date '+%Y-%m-%d' -d '2017-03-13')
-    end=$(date '+%Y-%m-%d' -d '2020-03-12')
+    start=$(date '+%Y-%m-%d' -d '2017-02-28')
+    end=$(date '+%Y-%m-%d' -d '2020-02-27')
     echo "┌─────UNTIL─BECOME─HUMAN─────┐"
     echo "│    start date : $start │"
     echo "│      end date : $end │"
